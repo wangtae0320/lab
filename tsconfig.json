@@ -11,7 +11,7 @@
     // "allowImportingTsExtensions": true,
     "moduleResolution": "Node", // vscode 업데이트 후 수정 필요
     "resolveJsonModule": true,
-    "isolatedModules": true,
+    // "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
 
