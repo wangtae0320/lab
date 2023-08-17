@@ -7,11 +7,10 @@
     "skipLibCheck": true,
 
     /* Bundler mode */
-    // "moduleResolution": "Bundler", // vscode 업데이트 후 수정 필요
-    // "allowImportingTsExtensions": true,
-    "moduleResolution": "Node", // vscode 업데이트 후 수정 필요
+    "moduleResolution": "Bundler", // vscode 업데이트 후 수정 필요
+    "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
-    // "isolatedModules": true,
+    "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
 
