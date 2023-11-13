@@ -1,6 +1,6 @@
-import ReactDOM from "react-dom/client";
-import App from "./App.tsx";
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import ReactDOM from 'react-dom/client'
+import App from './App.tsx'
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -9,10 +9,10 @@ const queryClient = new QueryClient({
       retry: 0, // API 요청 실패시 재시도 하는 옵션 (설정값 만큼 재시도)
     },
   },
-});
+})
 
-ReactDOM.createRoot(document.getElementById("root")!).render(
+ReactDOM.createRoot(document.getElementById('root')!).render(
   <QueryClientProvider client={queryClient}>
     <App />
   </QueryClientProvider>
-);
+)
